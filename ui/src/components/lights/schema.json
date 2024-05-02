@@ -1,0 +1,115 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "usedIds": {
+      "type": "array",
+      "items": {
+        "type": "integer"
+      }
+    },
+    "switch": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer"
+          },
+          "pins": {
+            "type": "array",
+            "items": {
+              "type": "integer"
+            }
+          },
+          "name": {
+            "type": "string"
+          }
+        },
+        "required": ["id", "pins", "name"]
+      }
+    },
+    "dimmable": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer"
+          },
+          "pins": {
+            "type": "array",
+            "items": {
+              "type": "integer"
+            }
+          },
+          "name": {
+            "type": "string"
+          },
+          "brightness": {
+            "type": "integer"
+          }
+        },
+        "required": ["id", "pins", "name", "brightness"]
+      }
+    },
+    "colored": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer"
+          },
+          "pin": {
+            "type": "integer"
+          },
+          "count": {
+            "type": "integer"
+          },
+          "speed": {
+            "type": "integer"
+          },
+          "colorMode": {
+            "type": "integer"
+          },
+          "name": {
+            "type": "string"
+          },
+          "lights": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "integer"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "count": {
+                  "type": "integer"
+                },
+                "offset": {
+                  "type": "integer"
+                },
+                "h": {
+                  "type": "integer"
+                },
+                "s": {
+                  "type": "integer"
+                },
+                "v": {
+                  "type": "integer"
+                }
+              },
+              "required": ["id", "name", "count", "offset", "h", "s", "v"]
+            }
+          }
+        },
+        "required": ["id", "pin", "count", "name", "lights"]
+      }
+    }
+  },
+  "required": ["usedIds", "switch", "dimmable", "colored"]
+}

@@ -1,0 +1,9 @@
+{
+  "cSpell.words": [
+    "Gunpla"
+  ],
+  "files.associations": {
+    "*.erb": "html.erb",
+    "typeinfo": "cpp"
+  }
+}

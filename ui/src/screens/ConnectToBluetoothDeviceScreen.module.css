@@ -1,0 +1,12 @@
+.wrapper {
+  height: 100%;
+  min-height: rem(900px);
+  background-repeat: no-repeat;
+  background-color: black;
+  /* background-size: cover; */
+  background-position: bottom center;
+  background-image: url('../images/logo.png');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

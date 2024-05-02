@@ -1,0 +1,21 @@
+.main {
+  backdrop-filter: blur(32px);
+  background-color: rgb(46 46 46 / 90%);
+}
+
+.tabIcon {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 8px;
+}
+
+.header {
+  background-color: var(--mantine-color-default);
+}
+
+.container {
+  background-repeat: no-repeat;
+  background-color: black;
+  background-position: bottom center;
+  background-image: url('../images/logo.png');
+}
