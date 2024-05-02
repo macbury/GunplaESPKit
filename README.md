@@ -8,6 +8,13 @@
 
 This code is designed for automating the LED control in my Gundam models using HomeAssistant (https://www.home-assistant.io/). Initially, I considered using ESPHome, but I needed more advanced features like power-on effects and diverse animations, particularly for elements like GN Drives.
 
+![1](docs/1.png)
+![2](docs/2.png)
+![3](docs/3.png)
+![4](docs/4.png)
+![5](docs/5.png)
+![6](docs/6.png)
+
 ## How it works
 
 This software is composed of two parts. ESP32 Firmware and PWA React app that can upload firmware and configure HomeKit accessories on board. Web dashboard is using WebBluetooth to manage board and WebSerial to upload firmware. Everything stays in the browser.
