@@ -26,8 +26,8 @@ This software is composed of two parts. ESP32 Firmware and PWA React app that ca
 ![alt text](docs/gunplakit/PXL_20231217_220752358.PORTRAIT.jpg)
 ![alt text](docs/gunplakit/PXL_20231219_195310564.PORTRAIT.jpg)
 ![alt text](docs/gunplakit/PXL_20231227_205951190.PORTRAIT.jpg)
-![alt text](docs/gunplakit/PXL_20240113_224812099.jpg)
 ![alt text](docs/gunplakit/PXL_20240121_214913171.jpg)
+![alt text](docs/gunplakit/PXL_20240113_224812099.jpg)
 ![alt text](docs/gunplakit/PXL_20240306_210204990.jpg)
 ## Stack
 
